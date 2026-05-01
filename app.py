@@ -4,8 +4,8 @@ import sqlite3
 from groq import Groq
 
 # Initialize Groq
-client = Groq(api_key="8390c1e44dcf43e9ab7f69ec5101aa07")
 
+client = Groq(api_key=os.getenv("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"))
 st.title("🧠 AI SQL Data Analyst")
 
 file = st.file_uploader("Upload CSV")
