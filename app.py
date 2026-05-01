@@ -4,7 +4,7 @@ import sqlite3
 from groq import Groq
 
 # Initialize Groq
-client = Groq(api_key="API_KEY_HERE")
+client = Groq(api_key="8390c1e44dcf43e9ab7f69ec5101aa07")
 
 st.title("🧠 AI SQL Data Analyst")
 
