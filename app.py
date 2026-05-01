@@ -5,7 +5,7 @@ from groq import Groq
 
 # Initialize Groq
 
-client = Groq(api_key="API_KEY_HERE")
+client = Groq(api_key=st.secrets["API_KEY_HERE"])
 st.title("🧠 AI SQL Data Analyst")
 
 file = st.file_uploader("Upload CSV")
